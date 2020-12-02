@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AprenderLeer</string>
+    <string name="silabas">Sílabas</string>
+    <string name="palabraAleatoria">Palabra aleatoria</string>
+    <string name="leer">Leer texto</string>
+</resources>

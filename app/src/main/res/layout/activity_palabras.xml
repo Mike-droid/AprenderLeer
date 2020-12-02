@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Palabras"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:onClick="reproducirPrueba"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_play_circle_filled_24"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvRandomWord"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Hola"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="consultar"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/btnRandomWord"
+            android:text="@string/palabraAleatoria"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:textSize="30sp"
+            android:id="@+id/ttsButton"
+            android:text="@string/leer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>
